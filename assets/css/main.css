@@ -2683,7 +2683,7 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 23em;
-		left: 0;
+		right: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2794,7 +2794,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-left: 23em;
+		padding-right: 23em;
 	}
 
 /* Main */
@@ -2872,7 +2872,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 21em;
+				padding-right: 21em;
 			}
 
 		/* Main */
@@ -2902,7 +2902,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 20em;
+				padding-right: 20em;
 			}
 
 	}
