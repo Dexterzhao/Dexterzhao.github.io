@@ -5,8 +5,8 @@ Updated: 12 November 2026. This is a plain HTML/CSS GitHub Pages site. No packag
 ## Sources
 
 - Supplied English CV (`1123_l_53_en.pdf`): education, employment dates, responsibilities, programming languages, contact details, and two publications. An unchanged copy is available at `assets/cv/ziang-zhao-cv.pdf`.
-- User instructions: intention to seek a Computer Graphics PhD, regional interests, and current independent terrain-generation exploration.
-- Original homepage: opening motto and its Harry Shum attribution preserved verbatim, GitHub identity, historical photos, and conference resources.
+- User instructions and the conversations “CG阅读学习指南” and “游戏引擎技术学习重点”: graphics interests, independent terrain study, rendering/GPU topics, 3D representations, and engine-oriented asset generation. Study recommendations from those conversations are not treated as completed work.
+- Original homepage: opening motto wording and its Harry Shum attribution retained, GitHub identity, historical photos, and conference resources.
 - Alexander Goslin: https://alexandergoslin.me/
 - Reference project: https://xandergos.github.io/terrain-diffusion/
 - Paper: https://arxiv.org/abs/2512.08309 (v4, 3 May 2026); SIGGRAPH 2026 metadata on the author's project and code pages; DOI https://doi.org/10.1145/3799902.3811080
@@ -22,7 +22,7 @@ Updated: 12 November 2026. This is a plain HTML/CSS GitHub Pages site. No packag
 - UE4 exposure is distinguished from planned UE5/Unity rendering work. The CV describes relatively limited engine experience; production rendering expertise is not claimed.
 - The earlier Max-P submission-in-preparation and graduate-course drafts are not presented as published papers. The old JD grant news is not repeated without a current supporting source.
 - Historic conference links are retained as a 2019 archive. Their external availability and current conference schedules have not been checked.
-- CV and personal contact details are included for the requested personal site. The PDF is the supplied version, not a newly updated research CV.
+- The supplied CV is retained. The personal phone number is available only in that PDF, not in the HTML or other text files. The PDF is the supplied version, not a newly updated research CV.
 
 ## Local preview
 
@@ -33,3 +33,7 @@ From the repository directory, run `python -m http.server 8000 --bind 127.0.0.1`
 - The original motto wording is preserved; the sentence and attribution now have separate typographic treatments. Body and supporting text sizes are increased for desktop/mobile reading.
 - AsterExam (https://asterexam.com/) is described from the owner's account as their public-interest A-Level revision project with positive student feedback. No usage figures, specific features, free-access policy, or measured learning gains are asserted.
 - Public web retrieval of the project was unavailable during this update; the project description and reception are owner-reported.
+
+## Plain-language profile update
+
+Application and supervisor-seeking language has been removed. Headings describe their sections directly. Graphics topics are presented as interests and study directions; past job responsibilities remain separate. The existing terrain experiment plan remains proposed work, with sequential stages instead of calendar promises.

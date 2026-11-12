@@ -4,16 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ziang Zhao: game engineer and educator seeking a Computer Graphics PhD. Research interests in real-time rendering, procedural terrain, and 3D game assets.">
+  <meta name="description" content="Ziang Zhao: software engineer and teacher. Interests in real-time rendering, 3D representations, procedural terrain generation, and game assets.">
   <meta name="theme-color" content="#20322f">
-  <title>Prospective Computer Graphics PhD Researcher | Ziang Zhao</title>
+  <title>Personal Website | Ziang Zhao</title>
   <link rel="stylesheet" href="assets/css/research.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <aside class="sidebar" aria-label="Profile and navigation">
     <a class="name" href="index.html">Ziang Zhao<span>Dexter</span></a>
-    <p class="sidebar-role">Game engineer. Educator.<br>Prospective graphics researcher.</p>
+    <p class="sidebar-role">Software engineer<br>Computer Science &amp; Physics teacher</p>
     <nav aria-label="Main navigation">
       <a href="#one">About</a>
       <a href="#two">Research</a>
@@ -30,34 +30,32 @@
   <main id="main">
     <section id="one" class="hero" aria-labelledby="intro-title">
       <div class="motto"><p><strong class="motto-quote">Nothing replaces hard work.</strong><span class="motto-attribution">(Inspired by <a href="https://en.wikipedia.org/wiki/Harry_Shum" target="_blank"> Harry Shum</a>) .</span></p></div>
-      <p class="eyebrow">SEEKING A COMPUTER GRAPHICS PhD</p>
-      <h1 id="intro-title">From building games<br>to researching<br><em>how worlds are made.</em></h1>
-      <p class="lead">I am Ziang Zhao, a game software engineer and educator working toward research in real-time graphics, game engine rendering, procedural terrain generation, and 3D game asset generation.</p>
-      <p>I hold an M.S. in Computer Science from the University of California, Riverside and a bachelor's degree in Computer Science from Huazhong University of Science and Technology (HUST). My background spans approximately five years in the game industry, including Tencent, Huanle Entertainment, NetEase, and vivo. I now teach Computer Science and Physics at St Bees School in Dongguan.</p>
-      <div class="callout"><strong>Looking ahead</strong><p>I am seeking PhD opportunities in Computer Graphics, with particular interest in the Greater Bay Area, including HKUST (Guangzhou), The Chinese University of Hong Kong, Shenzhen, and nearby research groups. I would welcome conversations with potential supervisors about research fit and preparation for doctoral study.</p></div>
-      <div class="actions"><a class="button" href="research.html">Explore my research agenda</a><a class="text-link" href="assets/cv/ziang-zhao-cv.pdf">Read my CV (PDF) ↗</a></div>
+      <h1 id="intro-title">Ziang Zhao</h1>
+      <p class="lead">I am a software engineer and a Computer Science and Physics teacher at St Bees School in Dongguan. My interests include real-time rendering, 3D representations, procedural terrain generation, and 3D assets for games.</p>
+      <p>I hold an M.S. in Computer Science from the University of California, Riverside and a bachelor's degree in Computer Science from Huazhong University of Science and Technology (HUST). I have approximately five years of game-industry experience at Tencent, Huanle Entertainment, NetEase, and vivo, primarily in backend development, gameplay systems, performance analysis, and test engineering.</p>
+      <div class="actions"><a class="button" href="research.html">Research notes</a><a class="text-link" href="assets/cv/ziang-zhao-cv.pdf">Read my CV (PDF) ↗</a></div>
     </section>
 
     <section id="two" aria-labelledby="research-title">
-      <p class="eyebrow">01 / RESEARCH DIRECTION</p><h2 id="research-title">Controllable worlds.<br>Interactive performance.</h2>
-      <p class="section-intro">How can learned generation become a useful part of an editable, reproducible, real-time world-building workflow?</p>
+      <h2 id="research-title">Graphics interests</h2>
+      <p class="section-intro">I am studying rendering and geometry alongside generative methods for game environments. The topics below describe my current interests and questions for further investigation.</p>
       <div class="interest-grid">
-        <article><h3>Game engine rendering</h3><p>Understand the interaction between scene representation, shading, visibility, level of detail, and the performance budgets of interactive applications.</p></article>
-        <article><h3>Procedural terrain</h3><p>Explore generative terrain with explicit structural controls, coherent large-scale geography, and predictable behavior across seeds and query locations.</p></article>
-        <article><h3>3D assets &amp; environments</h3><p>Study how generated assets, materials, and vegetation can fit terrain, respect artistic edits, and remain practical to render and stream.</p></article>
+        <article><h3>Real-time rendering &amp; GPU programming</h3><p>Rendering pipelines, physically based shading, image-based lighting, shadows, and global illumination. I am interested in temporal reconstruction, GPU-driven visibility and level of detail, and how shader execution and memory use affect frame time.</p></article>
+        <article><h3>3D representations &amp; neural rendering</h3><p>Meshes, signed distance fields, neural radiance fields (NeRF), and 3D Gaussian Splatting. My interests include the tradeoffs between rendering cost, memory, editability, and the separation of geometry, materials, and lighting.</p></article>
+        <article><h3>Procedural terrain generation</h3><p>Seed-consistent generation, multi-scale terrain structure, ridge and river constraints, and local editing. I want to examine how these properties behave when terrain is generated and streamed in a game engine.</p></article>
+        <article><h3>3D assets for game engines</h3><p>Generated geometry, textures, and materials, with attention to topology, UVs, level-of-detail generation, collision, and engine integration. A particular question is how to retain useful controls and editable representations throughout the asset pipeline.</p></article>
       </div>
-      <article class="project"><div class="project-top"><span class="status">Current exploration</span><span class="small">Independent study · Replication-oriented</span></div>
-        <h3>Learning from InfiniteDiffusion / Terrain Diffusion</h3>
-        <p>I am exploring Alexander Goslin's <cite>InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation</cite> (SIGGRAPH 2026) as a starting point for a terrain-generation research project. My immediate focus is understanding the paper and public implementation, planning baseline replication, and defining a measurable evaluation protocol.</p>
-        <p class="small">InfiniteDiffusion and Terrain Diffusion are Goslin's work. This is an independent exploration; no completed replication, collaboration, or new research result is claimed here.</p>
-        <div class="inline-links"><a href="https://arxiv.org/abs/2512.08309">Reference paper ↗</a><a href="https://github.com/xandergos/terrain-diffusion">Author's code ↗</a><a href="research.html">Questions, experiments &amp; milestones →</a></div>
+      <article class="project"><div class="project-top"><span class="status">Current exploration</span><span class="small">Paper and code study</span></div>
+        <h3>Terrain generation study: InfiniteDiffusion / Terrain Diffusion</h3>
+        <p>I am exploring Alexander Goslin's <cite>InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation</cite> (SIGGRAPH 2026) through its paper and public implementation. Baseline replication, terrain controls, and evaluation are the next steps in this study.</p>
+        <p class="small">InfiniteDiffusion and Terrain Diffusion are Goslin's published work. My study is independent; baseline replication and the experiments described in the research notes are planned.</p>
+        <div class="inline-links"><a href="https://arxiv.org/abs/2512.08309">Reference paper ↗</a><a href="https://github.com/xandergos/terrain-diffusion">Author's code ↗</a><a href="research.html">Planned experiments →</a></div>
       </article>
-      <p><strong>What I bring:</strong> production experience with C++/Lua/Python, Linux builds and CI/CD, profiling, automated testing, and multiplayer systems. These support reliable experiments and engine integration. My industry roles were primarily backend, gameplay, and test engineering; I am developing my graphics and rendering expertise through focused study and experimentation.</p>
     </section>
 
     <section id="publications" aria-labelledby="pub-title">
-      <p class="eyebrow">02 / PRIOR RESEARCH</p><h2 id="pub-title">Selected publications</h2>
-      <p>My earlier research focused on spatial data management and visualization. It provides a foundation in data organization and multi-resolution thinking for my transition toward computer graphics.</p>
+      <h2 id="pub-title">Selected publications</h2>
+      <p>My previous research concerned spatial data management and visualization.</p>
       <ol class="publications">
         <li><span class="venue">DASC / ICDE Workshops · 2019</span><h3><a href="https://doi.org/10.1109/ICDEW.2019.00-33">A Data-Driven Approach for Tracking Human Litter in Modern Cities</a></h3><p><strong>Ziang Zhao</strong>, Yunfan Kang, Amr Magdy, Win Cowger, Andrew Gray.</p><p class="small">DASC workshop at IEEE ICDE 2019. Research on tracking and managing environmental litter data.</p></li>
         <li><span class="venue">ACM SIGSPATIAL · 2019 · Demonstration</span><h3><a href="https://www.cs.ucr.edu/~amr/papers/demos/gis19.cleanupourworld.pdf">Scalable Multi-resolution Spatial Visualization for Anthropogenic Litter Data</a></h3><p>Yunfan Kang, <strong>Ziang Zhao</strong>, Amr Magdy, Win Cowger, Andrew Gray.</p><p class="small">A demonstration of spatial data integration and interactive visualization at multiple resolutions. <a href="https://www.cs.ucr.edu/~amr/papers/demos/gis19.cleanupourworld.pdf">Author-hosted manuscript (PDF) ↗</a></p></li>
@@ -65,9 +63,9 @@
     </section>
 
     <section id="three" aria-labelledby="exp-title">
-      <p class="eyebrow">03 / ENGINEERING &amp; EDUCATION</p><h2 id="exp-title">Experience that informs<br>the questions I ask.</h2>
+      <h2 id="exp-title">Work experience</h2>
       <div class="timeline">
-        <article><div class="date">Jan 2025 – Present</div><div><h3>St Bees School, Dongguan</h3><p class="role">Computer Science &amp; Physics Teacher · Head of House</p><p>Teach IGCSE and A-Level Computer Science and Physics; lead the school Programming Club and support whole-school PSHE learning. Organize weekly House activities for around 30 students and provide academic and wellbeing mentoring for five students.</p><p class="small">Teaching strengthens the habits I value in research: clear explanations, careful reasoning, and patient iteration.</p></div></article>
+        <article><div class="date">Jan 2025 – Present</div><div><h3>St Bees School, Dongguan</h3><p class="role">Computer Science &amp; Physics Teacher · Head of House</p><p>Teach IGCSE and A-Level Computer Science and Physics; lead the school Programming Club and support whole-school PSHE learning. Organize weekly House activities for around 30 students and provide academic and wellbeing mentoring for five students.</p></div></article>
         <article><div class="date">Jul 2024 – Jan 2025</div><div><h3>vivo · Dongguan</h3><p class="role">Software Development Engineer in Test</p><p>Developed mobile-game testing strategies, testing frameworks, and game AI automation to evaluate demanding games and device user experience.</p><p class="tools">Python · Java · Kotlin</p></div></article>
         <article><div class="date">Nov 2023 – Apr 2024</div><div><h3>NetEase · Guangzhou</h3><p class="role">Senior Engineer · Condor Heroes</p><p>Full-stack game development for an MMORPG: dungeon and casual gameplay, character appearance and equipment systems, and shared-service integration such as rankings.</p><p class="tools">Python · C++ · UE4 · Shell</p></div></article>
         <article><div class="date">Nov 2022 – Sep 2023</div><div><h3>Huanle Entertainment · Shanghai</h3><p class="role">Senior Game Backend Engineer · RoMeta</p><p>Built combat, scene, dungeon, quest, and equipment modules. Maintained the Linux build and CI/CD pipeline, integrated libraries including Redis and MongoDB, and developed Lua flame-graph/memory-profiling tools and robot clients for protocol stress testing.</p><p class="tools">C++ · Lua · Python · C# · Docker · CMake</p></div></article>
@@ -75,26 +73,26 @@
       </div>
 
       <article id="asterexam" class="project outreach" aria-labelledby="asterexam-title">
-        <div class="project-top"><span class="status">Public-interest education project</span><span class="small">Engineering in service of learning</span></div>
-        <h3 id="asterexam-title">AsterExam · Supporting A-Level revision</h3>
-        <p>I created AsterExam as a public-interest education project to help students revise for their A-Level examinations. It connects my software engineering background with my work as an educator, with the aim of making revision support more accessible.</p>
-        <p>The project has received positive feedback from students, encouraging me to keep improving how it supports their revision.</p>
+        <div class="project-top"><span class="status">Public-interest education project</span></div>
+        <h3 id="asterexam-title">AsterExam</h3>
+        <p>I built AsterExam as a public-interest education project to help students revise for A-Level examinations.</p>
+        <p>The project has received positive feedback from students.</p>
         <div class="inline-links"><a href="https://asterexam.com/">Visit AsterExam ↗</a></div>
       </article>
     </section>
 
     <section id="education" aria-labelledby="edu-title">
-      <p class="eyebrow">04 / FOUNDATIONS</p><h2 id="edu-title">Education &amp; skills</h2>
+      <h2 id="edu-title">Education &amp; skills</h2>
       <div class="education-list">
         <article><span class="date">Sep 2017 – Mar 2019</span><h3>University of California, Riverside</h3><p>M.S. in Computer Science</p></article>
         <article><span class="date">Jul 2016 – Jun 2017</span><h3>University of California, Riverside</h3><p>Graduate Preparation Program – Engineering · Exchange study</p></article>
         <article><span class="date">Sep 2012 – Jun 2017</span><h3>Huazhong University of Science and Technology</h3><p>Bachelor's degree in Computer Science</p></article>
       </div>
-      <dl class="skills"><dt>Core programming</dt><dd>C++, Lua, Python; C; introductory Go.</dd><dt>Systems &amp; tools</dt><dd>Linux, Bash/Shell, CMake, Docker, CI/CD, perf, flame graphs, memory profiling, load testing.</dd><dt>Data &amp; applied ML</dt><dd>SQL, Elasticsearch, Redis, MongoDB; experience applying machine learning to anti-cheat and matchmaking.</dd><dt>Engine exposure</dt><dd>UE4 gameplay and dedicated-server workflows. UE5/Unity rendering and streaming are proposed research development targets.</dd><dt>Communication</dt><dd>Native Mandarin; proficient English for study, work, and teaching. PMP credential listed in my CV.</dd></dl>
+      <dl class="skills"><dt>Core programming</dt><dd>C++, Lua, Python; C; introductory Go.</dd><dt>Systems &amp; tools</dt><dd>Linux, Bash/Shell, CMake, Docker, CI/CD, perf, flame graphs, memory profiling, load testing.</dd><dt>Data &amp; applied ML</dt><dd>SQL, Elasticsearch, Redis, MongoDB; experience applying machine learning to anti-cheat and matchmaking.</dd><dt>Engine exposure</dt><dd>UE4 gameplay and dedicated-server workflows. Current study topics include UE5 rendering architecture and GPU programming.</dd><dt>Communication</dt><dd>Native Mandarin; proficient English for study, work, and teaching. PMP credential listed in my CV.</dd></dl>
     </section>
 
     <section id="four" class="contact" aria-labelledby="contact-title">
-      <p class="eyebrow">05 / GET IN TOUCH</p><h2 id="contact-title">Let's talk about<br>graphics research.</h2><p>I welcome discussions about prospective PhD supervision, research preparation, and the connection between generative worlds and practical game systems.</p>
+      <h2 id="contact-title">Contact</h2>
       <address><a class="contact-email" href="mailto:zhaoziang88@qq.com">zhaoziang88@qq.com</a><br>WeChat: dexter_zhao</address>
       <div class="inline-links"><a href="https://github.com/Dexterzhao">GitHub ↗</a><a href="https://www.linkedin.com/in/ziang-zhao-5a3bb0126/">LinkedIn ↗</a><a href="assets/cv/ziang-zhao-cv.pdf">CV (PDF) ↗</a></div>
       <details><summary>Beyond work</summary><p>I enjoy music and guitar. These photographs are from the earlier version of this site.</p><div class="photo-grid"><img src="images/guitars.jpg" alt="Guitars from my personal photo collection" loading="lazy"><img src="images/graduate1.jpg" alt="A photograph from my graduation" loading="lazy"><img src="images/Oneday.jpg" alt="A moment from my personal photo collection" loading="lazy"></div></details>

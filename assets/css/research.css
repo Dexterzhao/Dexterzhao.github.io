@@ -9,9 +9,9 @@ a:hover{color:#153c34;text-decoration-thickness:2px}
 a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--green);outline-offset:5px}
 h1,h2,h3,p{margin-top:0}
 h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.04em;line-height:1.12}
-h1{font-size:clamp(2.6rem,4.7vw,4.7rem);margin-bottom:32px}
+h1{font-size:clamp(2.2rem,3.5vw,3rem);margin-bottom:32px}
 h1 em{color:var(--green);font-weight:400}
-h2{font-size:clamp(2rem,3vw,3.1rem);margin-bottom:28px}
+h2{font-size:clamp(1.65rem,2.5vw,2rem);margin-bottom:28px}
 h3{font-size:1.15rem;line-height:1.45;font-weight:600;margin-bottom:10px;letter-spacing:-.015em}
 p{margin-bottom:24px}
 main p,main li,main dd{max-width:74ch}
@@ -43,7 +43,7 @@ main>.hero{padding-top:36px}
 .button{display:inline-block;padding:13px 22px;background:var(--green);color:white;border:1px solid var(--green);text-decoration:none;font-size:16px;font-weight:600}
 .button:hover{background:#153c34;color:white}
 .text-link{font-size:16px}
-.interest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:38px 0}
+.interest-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:38px 0}
 .interest-grid article{border-top:2px solid var(--green);padding-top:20px}
 .interest-grid p{font-size:18px;line-height:1.7}
 .project{border:1px solid var(--rule);padding:28px;margin:20px 0 30px;background:var(--wash)}
@@ -93,6 +93,6 @@ tbody th{font-weight:600;min-width:130px}
 .skip-link:focus{top:10px}
 @media(min-width:1500px){main{max-width:1360px}}
 @media(max-width:1100px){:root{--sidebar:225px}.sidebar{padding:36px 24px}.interest-grid{grid-template-columns:1fr;gap:12px}.interest-grid article{display:grid;grid-template-columns:160px 1fr;gap:20px}.timeline>article{grid-template-columns:1fr;gap:10px}.lead{font-size:22px}}
-@media(max-width:760px){html{scroll-padding-top:16px}.sidebar{position:static;width:auto;padding:25px 24px;display:block;border-right:0;border-bottom:1px solid var(--rule)}.name{font-size:26px}.name span{display:inline;margin-left:18px;font-size:11px}.sidebar-role{margin:14px 0;font-size:15px}.sidebar-role br{display:initial}nav{flex-direction:row;flex-wrap:wrap;gap:2px 18px}nav a{font-size:15px;padding:6px 0}.sidebar-bottom{display:none}main{margin:0;padding:0 24px}main>section,main>.page-header{padding:44px 0}main>.hero{padding-top:25px}.motto{padding:20px;margin-bottom:34px}.motto-attribution{font-size:15px}h1{font-size:clamp(2.3rem,7.5vw,3.5rem)}h2{font-size:2.1rem}.lead{font-size:20px}body{font-size:18px}.experiment p{font-size:18px}.interest-grid article{display:block}.project{padding:20px}.skills{grid-template-columns:1fr;gap:8px}.skills dd{margin-bottom:14px}.site-footer{margin:0;padding:26px 24px}.experiment{grid-template-columns:1fr;gap:6px}.experiment-number{font-size:20px}.photo-grid img{height:110px}.actions{gap:18px}.callout{padding-left:18px}}
+@media(max-width:760px){html{scroll-padding-top:16px}.sidebar{position:static;width:auto;padding:25px 24px;display:block;border-right:0;border-bottom:1px solid var(--rule)}.name{font-size:26px}.name span{display:inline;margin-left:18px;font-size:11px}.sidebar-role{margin:14px 0;font-size:15px}.sidebar-role br{display:initial}nav{flex-direction:row;flex-wrap:wrap;gap:2px 18px}nav a{font-size:15px;padding:6px 0}.sidebar-bottom{display:none}main{margin:0;padding:0 24px}main>section,main>.page-header{padding:44px 0}main>.hero{padding-top:25px}.motto{padding:20px;margin-bottom:34px}.motto-attribution{font-size:15px}h1{font-size:2.2rem}h2{font-size:1.65rem}.lead{font-size:20px}body{font-size:18px}.experiment p{font-size:18px}.interest-grid article{display:block}.project{padding:20px}.skills{grid-template-columns:1fr;gap:8px}.skills dd{margin-bottom:14px}.site-footer{margin:0;padding:26px 24px}.experiment{grid-template-columns:1fr;gap:6px}.experiment-number{font-size:20px}.photo-grid img{height:110px}.actions{gap:18px}.callout{padding-left:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.sidebar,.site-footer,.skip-link,.actions{display:none}body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}main>section,main>.page-header{padding:20px 0}h1{font-size:30pt}h2{font-size:24pt}.experiment,article{break-inside:avoid}a{color:inherit}.table-scroll{overflow:visible}table{min-width:0}}
