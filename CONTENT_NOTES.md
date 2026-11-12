@@ -27,3 +27,9 @@ Updated: 12 November 2026. This is a plain HTML/CSS GitHub Pages site. No packag
 ## Local preview
 
 From the repository directory, run `python -m http.server 8000 --bind 127.0.0.1` and open http://127.0.0.1:8000/ . There is no build output to generate. Do not commit or push without the owner's instruction.
+
+## Readability and AsterExam update
+
+- The original motto wording is preserved; the sentence and attribution now have separate typographic treatments. Body and supporting text sizes are increased for desktop/mobile reading.
+- AsterExam (https://asterexam.com/) is described from the owner's account as their public-interest A-Level revision project with positive student feedback. No usage figures, specific features, free-access policy, or measured learning gains are asserted.
+- Public web retrieval of the project was unavailable during this update; the project description and reception are owner-reported.
